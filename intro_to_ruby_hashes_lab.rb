@@ -1,8 +1,8 @@
 def base_hash
+  anime ={}
   anime = {
     :sailor_moon => "Moon Prism Power!"
-  }# Remember implicit return! We're returning this new Hash _without_ the
-  # keyword "return." Nice and neat.
+  }
     puts anime[:sailormoon]
 end
  base_hash
