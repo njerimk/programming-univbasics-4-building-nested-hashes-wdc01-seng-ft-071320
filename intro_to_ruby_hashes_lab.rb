@@ -3,7 +3,7 @@ def base_hash
   anime = {
     :sailor_moon =>"Moon Prism Power!"
   }
-    puts anime
+    anime
 end
  base_hash
 
