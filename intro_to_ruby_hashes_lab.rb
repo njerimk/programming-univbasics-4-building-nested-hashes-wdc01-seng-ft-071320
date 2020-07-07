@@ -1,10 +1,11 @@
 def base_hash
   anime = {
-    :sailor_moon = "Moon Prism Power!"
+    :sailor_moon => "Moon Prism Power!"
   }# Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
-  anime[:sailormoon]
+    puts anime[:sailormoon]
 end
+ base_hash
 
 def monopoly_with_second_tier
   # When you start writing the implementation for this method, copy the Hash
