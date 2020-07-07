@@ -1,4 +1,5 @@
 def base_hash
+  anime ={}
   anime = {
     :sailor_moon =>"Moon Prism Power!"
   }
