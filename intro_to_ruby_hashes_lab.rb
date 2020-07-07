@@ -1,9 +1,8 @@
 def base_hash
-  anime ={}
   anime = {
     :sailor_moon =>"Moon Prism Power!"
   }
-    puts anime[:sailormoon]
+    puts anime[:sailor_moon]
 end
  base_hash
 
